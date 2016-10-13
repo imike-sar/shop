@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'FuturaMediumC';
+    src: url(FuturaMediumC.woff) format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Baskerville Cyrillic LT Std';
+    src: url(BaskervilleCyrLTStd-Upright.eot);
+    src: url(BaskervilleCyrLTStd-Upright.eot?#iefix) format('embedded-opentype'),url(BaskervilleCyrLTStd-Upright.woff) format('woff'),url(BaskervilleCyrLTStd-Upright.ttf) format('truetype'),url(BaskervilleCyrLTStd-Upright.svg#BaskervilleCyrLTStd-Upright) format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+  font: 400 15px/17px 'FuturaMediumC', 'Arial', sans-serif;
+}
+
+main {
+  position: relative;
+  overflow: hidden;
+}
+
+.top-line {
+  background-color: #efefef;
+  height: 25px;
+  padding-top: 5px;
+  font-weight: bold;
+}
+
+.top-line::after {
+  content: '';
+  display: table;
+  width: 100%;
+}
+
+.top-line div {
+  float: left;
+}
+
+.top-line ul {
+  float: right;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.top-line li {
+  float: left;
+}
+
+.top-line li + li {
+  margin-left: 40px;
+}
+
+.logo-block .left {
+  float: left;
+}
+
+.logo-block .right {
+  float: right;
+}
+
+.logo-block .centr {
+  height: 100px;
+  text-align: center;
+}
+
+.logo-block a {
+  font-size: 0;
+}
+
+.menu {
+  background-color: #1a1a1a;
+  color: #ffffff;
+
+}
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu li + li {
+  margin-left: 50px;
+}
+
+.menu a {
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 3px;
+  padding: 6px 0;
+}
+
+.grid {
+  margin-right: -30px;
+}
+
+.grid > div {
+  float: left;
+  text-align: center;
+  height: 390px;
+  border-color: white;
+  width: 100%;
+
+  margin-top: 30px;
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+
+.grid > div div {
+  background-color: bisque;
+  height: 390px;
+}
+
+.grid > div:nth-child(2) {
+  width: 40%;
+}
+
+.grid > div:nth-child(2) div {
+  background-color: yellow;
+}
+
+.grid > div:nth-child(3) {
+  width: 60%;
+}
+
+.grid > div:nth-child(3) div {
+  background-color: aquamarine;
+
+}
+
+.grid > div:nth-child(4) {
+  width: 60%;
+}
+
+.grid > div:nth-child(4) div {
+  background-color: gray;
+
+}
+
+.grid > div:nth-child(5) {
+  width: 40%;
+}
+
+.grid > div:nth-child(5) div {
+  background-color: lime;
+
+}
